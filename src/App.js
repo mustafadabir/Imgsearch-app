@@ -25,7 +25,7 @@ const App = () => {
         {search ? (<ImgGrid currentPage={currentpage} images={searchimg}/>) :
         (<ImgGrid currentPage={currentpage} images={Randomimg}/>)}
         <div className="container-fuild mt-5 footer">
-            <p className="text-center py-3 text-white">Develop by <a href="#">Mustafa dabir</a></p>
+            <p className="text-center py-3 text-white">Develop by <a href="https://mustafadabir.netlify.app/" target='_blank' rel='noreferrer'>Mustafa dabir</a></p>
         </div>
     </>
   )
